@@ -10,7 +10,7 @@ Dynamic Host Configuration Protocol (BOOTP 프로토콜 기반)
 
 KT는 왜 DHCP 데이터를 가지고 있을까?) 핸드폰이나 PC를 사용할 때, IP를 별도로 설정하지 않아도 네트워크에 쉽게 접속되므로 특별한 경우를 제외하고 동적 할당 방식을 기본으로 사용.
 
-![Untitled](DHCP%20e4065d730f4441098975dc74f9995e59/Untitled.png)
+![Untitled](/assets/DHCP/Untitled.png)[^1]
 
 **1.** **DHCP** **Discover**
 
@@ -32,7 +32,7 @@ DHCP 서버로부터 제안받은 IP 주소(Requested IP)와 DHCP 서버 정보(
 
 DHCP 클라이언트로부터 IP 주소를 사용하겠다는 요청을 받으면 DHCP 서버에 해당 IP를 어떤 클라이언트가 언제부터 사용하기 시작했는지 정보를 기록하고 DHCP Request 메시지를 정상적으로 수신했다는 응답을 전송
 
-![Untitled](DHCP%20e4065d730f4441098975dc74f9995e59/Untitled%201.png)
+![Untitled](/assets/DHCP/Untitled_1.png)[^2]
 
 IP 임대시간이 있다. 임대시간 지나면 재할당 받아야 하지만, 갱신을 통해 임대받은 IP를 계속 사용할 수 있다. 이 때 유니캐스트로 진행되어 불필요한 브로드캐스트 발생 X
 
@@ -42,7 +42,7 @@ IP 임대시간이 있다. 임대시간 지나면 재할당 받아야 하지만,
         - Port-security로 방어
     - DHCP Spoofing → ManInTheMiddle 공격 가능
         
-        ![Untitled](DHCP%20e4065d730f4441098975dc74f9995e59/Untitled%202.png)
+        ![Untitled](/assets/DHCP/Untitled_2.png)
         
         - 공격자가 DHCP를 위장하여 조작된 정보를 전송하는것. → request에 비해 offer가 너무 적으면 의심할 필요가 있다
         - DHCP snooping으로 방어(port security와 비슷한 개념)
