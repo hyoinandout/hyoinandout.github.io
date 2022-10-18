@@ -1,5 +1,5 @@
 ---
-title: "DS"
+title: "Data Structure"
 ---
 # 자료구조
 
@@ -15,7 +15,7 @@ for(auto &i : d)
 
 cout<<i.first<<”-”<<i.second<<endl;
 
-![/assets/DS/unorderedmap_vs_map.PNG](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20edee07a51aeb4cf68b0fdf527b47ee11/unorderedmap_vs_map.png)
+![unorderedmap_vs_map](/assets/DS/unorderedmap_vs_map.PNG)
 
 make_heap & priority_queue
 
