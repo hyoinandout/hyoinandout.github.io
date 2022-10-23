@@ -142,16 +142,16 @@
     
     - block chain p2p cases (각 port에 저장된 block height에 따라 case나뉨)
         
-        ![Untitled](/assets//Blockchain/Untitled.png)
+        ![Untitled](/assets/Blockchain/Untitled.png)
         
-        ![Untitled](/assets//Blockchain/Untitled%201.png)
+        ![Untitled](/assets/Blockchain/Untitled%201.png)
         
     
     iota ~= enum
     
     새로운 block 채굴하면 broadcast로 다른 노드에도 알릴 수 있음
     
-    ![Untitled](/assets//Blockchain/Untitled%202.png)
+    ![Untitled](/assets/Blockchain/Untitled%202.png)
     
 
 on-chain : metadata(block hash, ipfs hash, 파일 정보들)
