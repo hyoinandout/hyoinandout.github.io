@@ -15,8 +15,8 @@ ifndef?
 
 페이지를 쓰는 이유에 대해서 포스팅 해보자
 
-[멀티쓰레드 프로그래밍](/_notes/Notion/MT.md)
+[[멀티쓰레드 프로그래밍|Multithread Programming]]
 
-[메모리](/_notes/Notion/Memory.md)
+[[메모리|Memory]]
 
-[네트워크 프로그래밍](/_notes/Notion/Network.md)
+[[네트워크 프로그래밍|Network Programming]]
