@@ -15,8 +15,8 @@ ifndef?
 
 페이지를 쓰는 이유에 대해서 포스팅 해보자
 
-[[멀티쓰레드 프로그래밍|Multithread Programming]]
+[[MT|멀티스레드 프로그래밍]]
 
-[[메모리|Memory]]
+[[Memory|메모리]]
 
-[[네트워크 프로그래밍|Network Programming]]
+[[Network|네트워크 프로그래밍]]
