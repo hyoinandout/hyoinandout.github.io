@@ -23,3 +23,15 @@ to run specific model within a module: pytest test_mod.py::test_func
 
 pytest vs python -m pytest: same but calling via python will add current directory to sys.path
 
+## Builtin markers
+usefixtures, filterwarnings, skip, skipif, xfail, parameterize
+
+mark has no effect on fixtures
+pytest.ini or pyproject.toml (here pyproject.toml)
+```
+[tool.pytest.ini_options]
+markers = [
+	"fast": marks tests as fast (deselect with -m "not slow"),
+	"serial"
+]
+```
