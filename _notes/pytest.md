@@ -35,3 +35,42 @@ markers = [
 	"serial"
 ]
 ```
+
+## fixture
+provides a defined, reliable and consistent context for the tests (environment or content)
+[[Anatomy of a test]]
+
+ex)
+```python
+import pytest
+
+class Animal:
+	def __ init__(self,name):
+		self.name = name
+
+	def __eq__(self,other):
+		return self.name == other.name
+
+@pytest.fixture
+def my_animal():
+	return Animal("lion")
+
+@pytest.fixture
+def animal_zoo():
+	return [Animal("tiger"),my_animal]
+
+def test_my_animal_in_zoo(my_animal, animal_zoo):
+	assert my_animal in animal_zoo
+
+```
+
+fixture can use other fixtures as well
+
+3 styles
+[[xunit-style]]
+[[unittest.TestCase]]
+[[none based]]
+
+fixture errors: linear
+
+sharing test data makes use of cache
