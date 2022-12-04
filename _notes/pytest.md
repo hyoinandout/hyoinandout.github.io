@@ -69,7 +69,7 @@ fixture can use other fixtures as well
 3 styles
 [[xunit-style]]
 [[unittest.TestCase]]
-[[none based]]
+nose based
 
 fixture errors: linear
 
