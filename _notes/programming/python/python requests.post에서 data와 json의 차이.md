@@ -1,3 +1,6 @@
+---
+---
+
 python request module의 post함수의 signature은 아래와 같다
 post(url, data=None, json=None, \*\*kwargs)
 data와 json의 차이가 헷갈릴 수 있다

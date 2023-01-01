@@ -1,3 +1,6 @@
+---
+---
+
 python에서 ctype을 쓰던 중 ctype의 변수 타입 중 제목의 두가지가 있었다. 차이점을 알아보자.
 
 wchar = wide character

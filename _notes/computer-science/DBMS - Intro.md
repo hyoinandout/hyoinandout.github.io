@@ -1,3 +1,6 @@
+---
+---
+
 problems of file systems to store data
 1. data redundancy
 2. difficult to access data
