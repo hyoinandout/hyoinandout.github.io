@@ -14,5 +14,5 @@ t = translation의 t라고 생각하시는 분도 있는 듯 하다.
 
 유니코드에서:
 그렇다면 UTF-8/16 의 차이는? 문자 하나를 표현할 때 사용할 최소 바이트수 차이이다.(8/16 bit) 
-![[Pasted image 20221211215432.png]]
+![Untitled](/assets/utf.png)
 출처 나무위키
