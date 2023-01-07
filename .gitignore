@@ -15,3 +15,6 @@ _includes/notes_graph.json
 .obsidian/
 
 .DS_Store
+
+# ideas
+_notes/ideas.md
