@@ -5,14 +5,13 @@ id: home
 permalink: /
 ---
 
-# Sup! 👊
-
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  This is my daily routine nowadays:<br>
-  <img src="/assets/timetable.PNG" width="500" height="500">
-  Interested? 
-  Take a look at <span style="font-weight: bold">[[Your first note|My second brain!]]</span>
+  This is Hyoin(Alfred)'s second brain. The host separated the notes and pages here into 3 categories to solve the problems that the host faces in usual. If you want to explore them, click one of the below options:<br>
 </p>
+- [[programming]]
+- [[computer-science-basics & engineering]]
+- [[domain-knowledge]]
+
 
 <style>
   .wrapper {

@@ -1,0 +1,15 @@
+---
+title: Computer science basics & Engineering
+---
+- [[2022-09-24]]
+- [[Blockchain]]
+- [[DBMS - Intro]]
+- [[DHCP]]
+- [[DS]]
+- [[GT]]
+- [[IA]]
+- [[MLDL]]
+- [[Memory]]
+- [[OS]]
+- [[SP]]
+- [[char wchar]]
