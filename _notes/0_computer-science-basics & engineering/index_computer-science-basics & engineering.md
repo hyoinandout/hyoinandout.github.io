@@ -1,7 +1,7 @@
 ---
 title: Computer science basics & Engineering
 ---
-- [[2022-09-24]]
+- [[Time in algorithm]]
 - [[Blockchain]]
 - [[DBMS - Intro]]
 - [[DHCP]]
