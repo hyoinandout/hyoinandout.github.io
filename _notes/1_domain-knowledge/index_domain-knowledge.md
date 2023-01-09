@@ -5,7 +5,6 @@ title: Domain-knowledge
 - [[Cloud]]
 - [[Framework]]
 - [[Frontend&Backend]]
-- [[git merge, rebase]]
 - [[k8s]]
 - [[kube]]
 - [[query parameter to get list]]
