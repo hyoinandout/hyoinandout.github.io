@@ -8,3 +8,5 @@ title: Domain-knowledge
 - [[k8s]]
 - [[kube]]
 - [[query parameter to get list]]
+- [[free]]
+- [[screen]]
