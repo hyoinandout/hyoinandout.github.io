@@ -26,3 +26,9 @@ regex = r"'([^\']+)'"
 regex = r"'([^\']*)'"
 ```
 가 되어야 한다.
+
+++
+string이 아닌 단어(chunk, single quote)를 잡고자 함이기 때문에 개행문자까지 negated set 안에 넣어주면 금상첨화
+```
+regex = r"'([^\'\n]*)'"
+```
