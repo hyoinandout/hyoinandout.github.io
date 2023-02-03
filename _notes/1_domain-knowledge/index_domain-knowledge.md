@@ -10,3 +10,4 @@ title: Domain-knowledge
 - [[query parameter to get list]]
 - [[free]]
 - [[screen]]
+- [[sqlite3에서 data domain text로 했을 때 blob에 길이제한이 생기는 이유]]
