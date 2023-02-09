@@ -16,3 +16,4 @@ title: Computer science basics & Engineering
 - [[git merge, rebase]]
 - [[Insertion sort]]
 - [[string에서 넓은 범위로 잡히지 않게 quotation 처리되어 있는 것만 catch하고 싶다면?]]
+- [[reverse proxy - haproxy]]
