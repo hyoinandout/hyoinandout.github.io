@@ -1,3 +1,6 @@
+---
+---
+
 파이썬에서 None이 특별한 의미를 지니기 때문에 False와 동등한 반환 값으로 취급해서 잘못 해석할 수 있다.
 ```python
 def careful_divide(a, b):
