@@ -44,6 +44,11 @@ img {
   border-radius: $border-radius;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+}
+
 blockquote {
   padding: 1.5em;
   margin: 0;
