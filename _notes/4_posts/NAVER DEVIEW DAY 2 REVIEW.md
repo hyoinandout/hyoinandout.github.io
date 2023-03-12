@@ -1,7 +1,7 @@
 ---
 title: "2023 NAVER DEVIEW DAY 2 REVIEW"
 ---
-#SRE #회고 
+#SRE #회고 #후기
 
 회사 슬랙에서 2월 8일, 9일 개발자 컨퍼런스인 [NAVER DEVIEW](https://deview.kr/2023) 예약이 열린다고 해서 SRE 세션이 주로 있던 DAY2에 신청을 했고, 어찌저찌(새로운 [토이 프로젝트](https://github.com/hyoinandout/ticket-reservation-app)를 시작하게 되는 계기가 되었다...) 예약완료를 해서 2월 28일날 DAY2에 갔다왔다. 또 어쩌다보니 점심 때 하는 워크샵에 당첨이 되어서 발표 연사자분들과 점심도 먹었다.
 
