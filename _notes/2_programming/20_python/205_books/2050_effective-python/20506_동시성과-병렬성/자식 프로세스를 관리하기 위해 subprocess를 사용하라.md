@@ -1,3 +1,6 @@
+---
+---
+
 자식 프로세스는 파이썬 인터프리터와 병렬로 실행되므로 CPU 코어를 최대로 쓸 수 있다.
 ```python
 #run, poll, Popen, communicate-timeout
