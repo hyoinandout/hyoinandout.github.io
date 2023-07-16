@@ -2,7 +2,7 @@
 온프렘에서 클라우드 서비스로의 전환, 모놀리틱 아키텍처에서 마이크로서비스 아키텍처 전환 등의 변화로 인해, 운영 중 어떠한 문제가 발생했을 때 트러블슈팅 과정이 복잡해졌습니다.
 
 이러한 문제를 해결하고자 DevOps, SRE, Platform Engineering 등의 키워드가 생겨났고, 그 중 SRE는 그러한 트러블슈팅 과정을 간결하게 하고자 Observability를 확보하려는 것이라고 요약할 수 있습니다.
-[토스ㅣSLASH 23 - 분산 추적 체계 & 로그 중심으로 Observability 확보하기](https://www.youtube.com/@toss_official)
+[토스ㅣSLASH 23 - 분산 추적 체계 & 로그 중심으로 Observability 확보하기](https://youtu.be/Ifz0LsfAG94)
 
 여러가지 데이터들 (Metric, Log, Trace) 등으로부터 운영 중 어떠한 문제가 발생했는지 파악이 가능해야 하고, 그러한 문제 파악의 과정이 최대한 간결하게 되도록 해야합니다.
 
@@ -29,7 +29,7 @@
 
 여기서 python의 sys.modules를 생각하게 되었습니다.
 [파이썬 공식 문서](https://docs.python.org/3/library/sys.html#sys.modules "Permalink to this definition")에서는 sys.modules에 대해 아래와 같이 서술하고 있습니다.
->sys.modules
+>sys.modules<br>
 >This is a dictionary that maps module names to modules which have already been loaded. This can be manipulated to force reloading of modules and other tricks. However, replacing the dictionary will not necessarily work as expected and deleting essential items from the dictionary may cause Python to fail. If you want to iterate over this global dictionary always use `sys.modules.copy()` or `tuple(sys.modules)` to avoid exceptions as its size may change during iteration as a side effect of code or activity in other threads.
 
 파이썬 프로세스에서 가장 처음에 실행한 모듈이 \_\_main\_\_ 모듈이 되므로, 이 키로 sys.modules 딕셔너리에 접근하면 application entrypoint에 대한 데이터를 얻을 수 있습니다. application의 entrypoint 같은 경우는 application의 대표성을 띄는 형태로 구성되어있기 때문에, 아래와 같은 식으로 로직을 추가하면 모노레포 기반 어플리케이션도 레이블을 붙일 수 있게 됩니다.
@@ -40,7 +40,7 @@ entrypoint = main_module_path.split('/')[-1]
 ```
 
 ### 정리
-sys.modules를 이용한 로직을 통해 application identifier를 로그에 추가하였습니다. 로그 수집 라이브러리 같은 경우 자식 패키지의 형태로 주로 프로젝트에서 쓰이기 때문에 부모 패키지의 메타데이터들에 대하여 접근하기 어렵지만 sys.modules를 사용한 우회방법을 발견하고 나서 글로 기록해야겠다 다짐했던 것 같습니다.
+sys.modules를 이용한 로직을 통해 application identifier를 로그에 추가하였습니다. 로그 수집 라이브러리 같은 경우 자식 패키지의 형태로 주로 프로젝트에서 쓰여 부모 패키지의 메타데이터들에 대하여 접근하기 어렵기 때문에 sys.modules를 사용한 우회방법을 발견하고 나서 글로 기록해야겠다 다짐했던 것 같습니다.
 
 물론 이렇게 로직을 추가하는 것은 sustainable한 방안이 아닐 수 있다고 생각해서, application identifier 개선기는 앞으로 시리즈로 이어질 것 같습니다.
 
