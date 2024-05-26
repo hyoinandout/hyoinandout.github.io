@@ -14,4 +14,4 @@ permalink: /posts
 - [[멀티쓰레드 프로그램에 대한 단위테스트를 작성하는 한가지 방법]]
 - [[취업 후 1년 회고]]
 - [[application log들의 identifier 개선기 - 1]]
-- [[기원빈 선수에게 초크당해본 후기]]
+- [[lululemon|룰루레몬과 함께하는 GET INTO IT! MMA X Yoga 클래스 후기]]
